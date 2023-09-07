@@ -164,21 +164,22 @@ float alphaUnfocused = 0.4;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	// Based on Dracula theme https://github.com/honza/base16-st/blob/master/build/base16-dracula-theme.h
-  "#000000", /* base00 */
+  "#000000", /* base00 */ //bg
   "#ea51b2", /* base08 */
-  "#ebff87", /* base0B */
+  "#ffff00", /* base0B */
+  /* "#ebff87", /\* base0B *\/ */
   "#00f769", /* base0A */
   "#62d6e8", /* base0D */
   "#b45bcf", /* base0E */
   "#a1efe4", /* base0C */
   "#e9e9f4", /* base05 */
   "#626483", /* base03 */
-  "#b45bcf", /* base09 */
+  "#ff00ff", /* base09 */
   "#3a3c4e", /* base01 */
   "#4d4f68", /* base02 */
-  "#62d6e8", /* base04 */
+  "#3399ff", /* base04 */
   "#f1f2f8", /* base06 */
-  "#00f769", /* base0F */
+  "#00cc00", /* base0F */
   "#f7f7fb", /* base07 */
   [255] = 0,
 
